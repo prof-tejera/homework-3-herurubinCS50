@@ -35,7 +35,7 @@ class App extends Component {
         <div className="App-component">
           <header className="App-header">Radio Buttons component (TODO)</header>
           <div className="App-content">
-            <RadioButtons />
+            <RadioButtons buttons={["orange", "Cherry", "Lime"]} />
           </div>
         </div>
       </div>
