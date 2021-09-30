@@ -28,7 +28,7 @@ class App extends Component {
         <div className="App-component">
           <header className="App-header">Pager component</header>
           <div className="App-content">
-            <Pager pageItems={32} itemsPerPage={5} maxBtnCount={4}  />
+            <Pager pageItems={67} itemsPerPage={5} maxBtnCount={4}  />
           </div>
         </div>
 
