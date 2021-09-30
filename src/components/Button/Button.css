@@ -10,6 +10,12 @@
   cursor: pointer;
 }
 
+.Default-button.active{
+  background-color: #226b87;
+  color:white;
+}
+
+
 .Default-button:active {
   background-color: #d0d0d0;
 }

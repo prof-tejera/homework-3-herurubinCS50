@@ -26,9 +26,9 @@ class App extends Component {
         </div>
 
         <div className="App-component">
-          <header className="App-header">Pager component (TODO)</header>
+          <header className="App-header">Pager component</header>
           <div className="App-content">
-            <Pager />
+            <Pager pageItems={32} itemsPerPage={5} maxBtnCount={4}  />
           </div>
         </div>
 
