@@ -26,16 +26,16 @@ class App extends Component {
         </div>
 
         <div className="App-component">
-          <header className="App-header">Pager component (TODO)</header>
+          <header className="App-header">Pager component</header>
           <div className="App-content">
-            <Pager />
+            <Pager pageItems={67} itemsPerPage={5} maxBtnCount={4}  />
           </div>
         </div>
 
         <div className="App-component">
           <header className="App-header">Radio Buttons component (TODO)</header>
           <div className="App-content">
-            <RadioButtons />
+            <RadioButtons buttons={["orange", "Cherry", "Lime"]} />
           </div>
         </div>
       </div>
